@@ -299,11 +299,13 @@ PRODUCT_PACKAGES += \
 
 # Power
 PRODUCT_PACKAGES += \
-    android.hardware.power-service-qti
+    android.hardware.power-service
 
 # Perf
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.perf@2.2.vendor
+
+-include vendor/qcom/common/perf/perf-vendor.mk
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/perf/commonresourceconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/commonresourceconfigs.xml \
