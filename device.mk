@@ -377,6 +377,10 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.servicetracker@1.1.vendor \
     vendor.qti.hardware.servicetracker@1.2.vendor
 
+# Smart Charge
+PRODUCT_PACKAGES += \
+    vendor.aosp.smartcharge@1.0-service
+
 # Soong namespace
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
