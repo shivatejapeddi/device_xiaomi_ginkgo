@@ -471,3 +471,17 @@ PRODUCT_BOOT_JARS += \
 # XiaomiParts
 PRODUCT_PACKAGES += \
     XiaomiParts
+
+# Cutout control overlays
+PRODUCT_PACKAGES += \
+    HideCutout \
+    StatusBarStock
+
+# StichImage
+PRODUCT_PACKAGES += \
+    StitchImage \
+    StitchImageService
+
+#SimpleDeviceConfig
+PRODUCT_PACKAGES += \
+    SimpleDeviceConfig
