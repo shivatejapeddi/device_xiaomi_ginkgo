@@ -485,3 +485,7 @@ PRODUCT_PACKAGES += \
 #SimpleDeviceConfig
 PRODUCT_PACKAGES += \
     SimpleDeviceConfig
+
+# Packages
+PRODUCT_PACKAGES += \
+    libtflite
