@@ -93,8 +93,8 @@ ODM_MANIFEST_WILLOW_FILES := $(DEVICE_PATH)/configs/hidl/manifest_willow.xml
 ODM_MANIFEST_SKUS += willow
 
 # Init
-TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_ginkgo
-TARGET_RECOVERY_DEVICE_MODULES := libinit_ginkgo
+#TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_ginkgo
+#TARGET_RECOVERY_DEVICE_MODULES := libinit_ginkgo
 
 # Kernel
 BOARD_KERNEL_BASE := 0x00000000
